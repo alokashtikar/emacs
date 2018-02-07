@@ -6,20 +6,11 @@
      (color-theme-initialize)
      (color-theme-hober)))
 
-;(toggle-tool-bar)
-
-;(global-set-macro "C-x C-z" 'shell)
-
 (global-set-key (kbd "C-x C-z") 'shell)
 
 (setq-default c-basic-offset 4
 	      tab-width 4
 	      indent-tabs-mode t)
-
-
-(setq-default c-basic-offset 4)
-
-
 
 (setq c-default-style "linux"
       c-basic-offset 4)
